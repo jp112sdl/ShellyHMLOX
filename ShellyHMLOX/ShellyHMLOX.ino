@@ -17,7 +17,7 @@
 #include "js_global.h"
 #include "js_fwupd.h"
 
-const String FIRMWARE_VERSION = "1.0.0";
+const String FIRMWARE_VERSION = "1.0.1";
 #define                       SERIALDEBUG
 #define RelayPin               4
 #define SwitchGPIOPin5         5
