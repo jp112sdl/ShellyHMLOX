@@ -268,9 +268,6 @@ void loop() {
     //eingehende HTTP Anfragen abarbeiten
     WebServer.handleClient();
 
-    //GPIO5 am Shelly
-    gpio5Handling();
-
     //Tasterbedienung am Shelly abarbeiten
     switchHandling();
 
