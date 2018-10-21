@@ -50,7 +50,7 @@ void switchHandling() {
         if (GlobalConfig.GPIO5Mode == GPIO5Mode_SWITCH_TOGGLE) {
           DEBUG(F("GPIO5Mode_SWITCH_TOGGLE"));
           if (GlobalConfig.BackendType == BackendType_HomeMatic) {
-            String currentState = getStateCUxD(HomeMaticConfig.ChannelNameSender + ".STATE", "State()");
+            String currentState = getStateCUxD(HomeMaticConfig.ChannelNameSender + ".STATE", "State");
             DEBUG("CUxD Switch currentState = " + String(currentState));
             setStateCUxD(HomeMaticConfig.ChannelNameSender + ".SET_STATE",  (currentState == "false" ? "1" : "0"));
           }
