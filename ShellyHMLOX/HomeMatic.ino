@@ -30,7 +30,7 @@ bool setStateCUxD(String id, String value) {
       DEBUG("setStateCUxD: WiFi.status() != WL_CONNECTED, trying to reconnect");
       return false;
       /*if (!doWifiConnect()) {
-        DEBUG("setStateCUxD: doWifiConnect() failed.", "setStateCUxD()", _slError);
+        DEBUG("setStateCUxD: doWifiConnect() failed.");
         //ESP.restart();
         }*/
     }
