@@ -1,4 +1,4 @@
-# ShellyHMLOX
+# ShellyHMLOX - DISCONTINUED -
 
 ## Alternative Firmware für den Shelly 1
 
